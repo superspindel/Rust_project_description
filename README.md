@@ -5,7 +5,7 @@
 ##### Name : Viktor Fällman
 ##### Mail : vikfll-0@student.ltu.se
 ##### Personal number: XXXXXX
-##### CAN bus API and Wheel Sensor implementation
+##### CAN bus API
 
 ## Grading
 
@@ -18,4 +18,4 @@ Where messages can be transmitted and recieved by the node. Focus is on experime
 
 4. Design and discuss a proper implementation of a API that would allow for others to build application on top of this communication API. Focus lies on scalability and modifiability. Where the design of the API should be implemented in such a way that it allows for other contributors to add functionality and perhaps move the API to a new processor without much work.
 
-5. Implement the API with proper documentation, testing and examples so to allow others to understand how to use it, show its proof of correctness towards the design made for grade 4 and further allow for others to work with the API during further development.
+5. Implement the API with proper documentation, testing and examples so to allow others to understand how to use it, show its proof of correctness towards the design made for grade 4 and further allow for others to work with the API during further development. Demo of the completed project should include a sensor that allows for the node to gather information and send it on the CAN bus. 
